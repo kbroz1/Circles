@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 .hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
 
@@ -18,6 +20,19 @@
     
 }
 
+.mainh1 {
+    text-align:center;
+    font-weight: bolder;
+    background:rgb(146, 14, 69);
+    color:sandybrown;
+    
+}
+
+.container {
+    margin-left:150px;
+    margin-right:150px;
+    padding:10px;
+}
 
 .hover:hover {
     color:purple;
@@ -82,12 +97,24 @@ li:hover {
 
 }
 
+h3 {
+    background-color:sandybrown;
+    color:rgb(146, 14, 69);
+}
+
 h3:hover{
     color:sandybrown;
-    background-color:purple;
-    transform:translateY(-20px);
+    background-color:rgb(146, 14, 69);
+    transform:scale(1.5,1.5);
 }
 
 .pbphoto:hover {
-    transform:rotate3d(1,1,360deg);
+    transform:rotate3d(1, 1, 1, 350deg);
+    border: rgb(146, 14, 69) dotted 5px;
+    
+}
+
+.pbphoto {
+    width: 350px;
+    height:300px;
 }
