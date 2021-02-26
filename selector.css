@@ -9,8 +9,20 @@
 }
 
 li:hover {
-    color:plum;
-    background-color:darkslateblue;
+    background-color:plum;
     text-decoration: none;
 
+}
+
+.section2 ul li {
+    color:olivedrab;
+    font-size: 24px;
+    list-style-type:none;
+    transition-property: color, transform;
+    transition-duration:4s;
+}
+
+.section2 ul li:hover {
+    color:black;
+    transform:translateX(40px);
 }

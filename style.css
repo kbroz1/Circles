@@ -86,13 +86,13 @@ a {
 
 .nav{
     margin-left: 350px;
-    text-decoration: none
-    ;
+    text-decoration: none;
+
 }
 
 li:hover {
-    color:violet;
-    background-color:sandybrown;
+    
+    background-color:plum;
     text-decoration: none;
 
 }
