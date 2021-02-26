@@ -1,3 +1,20 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav{
+    margin-left: 350px;
+    text-decoration: none
+    ;
+}
+
+li:hover {
+    color:plum;
+    background-color:darkslateblue;
+    text-decoration: none;
+
+}
+
 .sun {
     width:150px;
     height:150px;
@@ -38,16 +55,17 @@
 }
 
 img {
+    
     position: absolute;
             width: 160px;
-            bottom: 5px;
+            bottom: -30px;
             animation-name: car;
-            animation-duration: 3s;
-            animation-iteration-count: 5;
-            animation-delay: 3s;
-            animation-direction: alternate;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-direction:normal;
             animation-timing-function: linear;
-            animation-fill-mode: forwards;
+            animation-fill-mode:forwards;
 }
 
 @keyframes car {
@@ -55,15 +73,18 @@ img {
     /* from {left: -300px}
     to {left: 2000px} */
 
-    0% {left: -300px;
+    /* 0% {transform:translateX(0);}
 
-    25% {left: 100px;
+    25% {transform:translateX(220px);}
 
-    50% {left: 300px; }
+    50% {transform:translateX(-40px);}
 
-    75% {left:600px;}
+    75% {transform:translateX(600px);}
 
-    100% {left:2000px;}
+    100% {transform:translateX(880px);} */
+
+    from {left:-300px}
+    to {left:2000px;}
 
 
 }

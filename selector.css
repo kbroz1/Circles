@@ -1,0 +1,16 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav{
+    margin-left: 350px;
+    text-decoration: none
+    ;
+}
+
+li:hover {
+    color:plum;
+    background-color:darkslateblue;
+    text-decoration: none;
+
+}
