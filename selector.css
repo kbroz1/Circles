@@ -8,11 +8,13 @@
     ;
 }
 
+.nav a{
+    text-decoration:none;
+}
 
 li:hover {
     background-color:plum;
-    text-decoration: none;
-    width:30%;
+    width:auto;
 
 }
 
