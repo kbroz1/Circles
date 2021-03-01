@@ -71,8 +71,8 @@ animation-duration: 4s;
 
 @keyframes animation {
     0%   {color:white; left:0px; top:0px;}
-  25%  {color:lavender; left:200px; top:0px;}
+  25%  {color:rgb(207, 8, 207); left:200px; top:0px;}
   50%  {color:rgb(96, 31, 112); left:200px; top:200px;}
-  75%  {color:lavender; left:0px; top:200px;}
+  75%  {color:plum; left:0px; top:200px;}
   100% {color:white; left:0px; top:0px;}
 }
