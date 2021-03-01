@@ -83,7 +83,7 @@ img {
 
     100% {transform:translateX(880px);} */
 
-    from {left:-300px}
+    from {left:-300px;}
     to {left:2000px;}
 
 

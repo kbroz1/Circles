@@ -8,11 +8,15 @@
     ;
 }
 
+
 li:hover {
     background-color:plum;
     text-decoration: none;
+    width:30%;
 
 }
+
+
 
 .section2 ul li {
     color:olivedrab;
@@ -22,7 +26,51 @@ li:hover {
     transition-duration:4s;
 }
 
+.section2 .Spanish {
+    background-color:olivedrab;
+    font-size: 40px;
+    color:navajowhite;
+    width:12%;
+}
+
+
 .section2 ul li:hover {
     color:black;
     transform:translateX(40px);
+    width: 25%;
+}
+
+.section3 .arabic {
+    background-color:pink;
+    font-size: 40px;
+    color:darkslateblue;
+    font-weight: 900;
+    width: 40%;
+}
+
+
+.section3 ul {
+    color:white;  
+    font-size: 20px;
+    list-style-type:none;
+}
+
+.section3 li{
+animation-name: animation;
+animation-duration: 4s;
+        animation-iteration-count:infinite;
+        animation-delay: 1s;
+        animation-direction:normal;
+        animation-timing-function: linear;
+        animation-fill-mode:forwards;
+}
+
+
+
+@keyframes animation {
+    0%   {color:white; left:0px; top:0px;}
+  25%  {color:lavender; left:200px; top:0px;}
+  50%  {color:rgb(96, 31, 112); left:200px; top:200px;}
+  75%  {color:lavender; left:0px; top:200px;}
+  100% {color:white; left:0px; top:0px;}
 }
