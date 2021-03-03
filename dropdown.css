@@ -1,0 +1,60 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 1.5px;
+
+}
+
+.nav{
+    margin-left: 350px;
+    text-decoration: none;
+    border:none;
+}
+
+ul li {
+    float:left;
+    list-style-type:none;
+    opacity: 0.8;
+}
+
+ul li a {
+    border:1px solid black;
+    /* top right bottom left color */
+    box-shadow: 10px 5px 10px 5px gray;
+    text-decoration: none;
+    margin-right: 5px;
+    width:125px;
+    height:50px;
+    line-height: 50px;
+    display:inline-block;
+    color:rosybrown;
+    text-align:center;
+
+}
+
+ul li a:hover {
+    background-color: silver;
+    color:springgreen;
+    font-size:25px;
+    height: 75px;
+    width:125px;
+}
+
+.dropdown li a {
+    height: 25px;
+    line-height:25px;
+}
+
+.dropdown li {
+    float:none;
+}
+
+li .dropdown {
+    visibility: hidden;
+   
+}
+
+li:hover .dropdown {
+    visibility:visible;
+}
+
