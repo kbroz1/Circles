@@ -1,0 +1,69 @@
+.hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
+
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    background-color: violet;
+    border-radius: 50px;
+    cursor: pointer; 
+    color: white;
+    transition-property: color, background-color, transform;  /* properties you want to transition */
+    -moz-transition-property: color, background-color, transform;
+    transition-duration: 2s; /*how long you want the element to transition from start to finish */
+    transition-delay: 0s; /*how long until the transition begins */
+    transition-timing-function: ease-in-out; /*how we want our elements to transition */
+    
+}
+
+.container {
+    margin-left:150px;
+    margin-right:150px;
+    padding:10px;
+}
+
+.hover:hover {
+    color:purple;
+    background-color:turquoise;
+  
+
+
+}
+/*rotate is measured in degrees */
+.rotate:hover {
+    color:purple;
+    background-color:turquoise;
+    transform: rotate(360deg)
+
+}
+
+.skew:hover {
+    color:black;
+    background-color:turquoise;
+    transform: skewX(20deg);
+}
+
+.translatex:hover {
+    color: black;
+    background-color:turquoise;
+    transform: translateX(30px)
+
+}
+
+.translateY:hover{
+    color:purple;
+    background-color:turquoise;
+    transform:translateY(-30px);
+}
+
+.scale:hover {
+    color:purple;
+    background-color:turquoise;
+    transform:scale(2,3);
+}
+
+.threeD:hover {
+    color:purple;
+    background-color:turquoise;
+    transform:rotate3d(1, 1, 1, 360deg);
+} 

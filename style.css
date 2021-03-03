@@ -2,23 +2,66 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
 
-    width: 100px;
-    line-height: 0;
-    padding: 50px 0;
-    margin: 50px auto;
-    background-color: violet;
-    border-radius: 50px;
-    cursor: pointer; 
-    color: white;
-    transition-property: color, background-color, transform;  /* properties you want to transition */
-    -moz-transition-property: color, background-color, transform;
-    transition-duration: 2s; /*how long you want the element to transition from start to finish */
-    transition-delay: 0s; /*how long until the transition begins */
-    transition-timing-function: ease-in-out; /*how we want our elements to transition */
-    
+
+
+ul li {
+
+    list-style-type:none;
+    opacity: 0.8;
+    border: sandybrown solid 1px;
+    text-decoration:none;
+    background-color:rgb(146, 14, 69);
+    color:white;
 }
+
+.home {
+    height: 27px;
+    margin-left: 50px;
+
+}
+
+.home a {
+    text-decoration:none;
+    color:white;
+}
+
+ul li a{
+    height: 25px;
+    line-height:25px;
+    text-decoration:none;
+    list-style-type: none;
+    display:inline-block;
+    text-align:center;
+}
+
+
+.dropdown li a {
+    height: 25px;
+    color:white;
+   
+}
+
+ .dropdown li {
+    float:none;
+    border: rgb(146, 14, 69) solid 1px;
+    text-decoration:none;
+    background-color: sandybrown;
+} 
+
+li + .dropdown{
+    visibility:hidden;
+}
+
+li:hover + .dropdown{
+    visibility:visible;
+
+   
+}
+
+
+
+
 
 .mainh1 {
     text-align:center;
@@ -28,74 +71,16 @@
     
 }
 
-.container {
-    margin-left:150px;
-    margin-right:150px;
-    padding:10px;
-}
-
-.hover:hover {
-    color:purple;
-    background-color:turquoise;
-  
-
-
-}
-/*rotate is measured in degrees */
-.rotate:hover {
-    color:purple;
-    background-color:turquoise;
-    transform: rotate(360deg)
-
-}
-
-.skew:hover {
-    color:black;
-    background-color:turquoise;
-    transform: skewX(20deg);
-}
-
-.translatex:hover {
-    color: black;
-    background-color:turquoise;
-    transform: translateX(30px)
-
-}
-
-.translateY:hover{
-    color:purple;
-    background-color:turquoise;
-    transform:translateY(-30px);
-}
-
-.scale:hover {
-    color:purple;
-    background-color:turquoise;
-    transform:scale(2,3);
-}
-
-.threeD:hover {
-    color:purple;
-    background-color:turquoise;
-    transform:rotate3d(1, 1, 1, 360deg);
-}
-
-a {
-    text-decoration: none;
-}
-
-.nav{
+/
+ .nav{
     margin-left: 350px;
     text-decoration: none;
 
-}
+} 
 
-li:hover {
-    
-    background-color:plum;
-    text-decoration: none;
 
-}
+
+
 
 h3 {
     background-color:sandybrown;
@@ -106,6 +91,7 @@ h3:hover{
     color:sandybrown;
     background-color:rgb(146, 14, 69);
     transform:scale(1.5,1.5);
+    margin-left: 30px;
 }
 
 .pbphoto:hover {
@@ -118,4 +104,4 @@ h3:hover{
     width: 350px;
     height:300px;
 }
-
+  

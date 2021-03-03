@@ -5,11 +5,7 @@
 
 }
 
-.nav{
-    margin-left: 350px;
-    text-decoration: none;
-    border:none;
-}
+
 
 ul li {
     float:left;
@@ -57,4 +53,5 @@ li .dropdown {
 li:hover .dropdown {
     visibility:visible;
 }
+
 
