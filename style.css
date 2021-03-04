@@ -3,7 +3,9 @@
 }
 
 
-
+.nav {
+    margin-bottom: -100px;
+}
 
 ul li {
 
@@ -13,11 +15,14 @@ ul li {
     text-decoration:none;
     background-color:rgb(146, 14, 69);
     color:white;
+    margin-left: -40px;
 }
 
 .home {
-    height: 27px;
+    height: 35px;
     margin-left: 50px;
+    margin-bottom: 50px;;
+    font-size: 30px;
 
 }
 
@@ -32,7 +37,7 @@ ul li a{
     text-decoration:none;
     list-style-type: none;
     display:inline-block;
-    text-align:center;
+
 }
 
 
@@ -43,7 +48,6 @@ ul li a{
 }
 
  .dropdown li {
-    float:none;
     border: rgb(146, 14, 69) solid 1px;
     text-decoration:none;
     background-color: sandybrown;
@@ -53,11 +57,16 @@ li + .dropdown{
     visibility:hidden;
 }
 
+
 li:hover + .dropdown{
     visibility:visible;
-
-   
 }
+
+li:hover, .dropdown:hover{
+    visibility: visible;
+}
+
+
 
 
 
